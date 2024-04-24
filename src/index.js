@@ -8,7 +8,7 @@ let byteCount = 0;
 let charCount = 0;
 let countEverything = false;
 let result = ""
-console.log(process.argv);
+
 if(process.argv.length == 3){
     filePath = process.argv[2];
     countEverything = true
